@@ -1,0 +1,17 @@
+
+@mixin typographyOne
+{
+  color: blue;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+
+
+
+.axolotl
+{ @include typographyOne;
+  .intro
+  {
+    text-decoration: underline;
+  }
+}
